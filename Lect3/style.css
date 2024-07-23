@@ -1,0 +1,15 @@
+#header {
+  color: blueviolet;
+  background-color: yellow;
+}
+#content {
+  color: tomato;
+  width: 50%;
+  margin: 70px auto ;
+}
+table {
+  width: 100%;
+}
+td {
+  text-align: center;
+}
