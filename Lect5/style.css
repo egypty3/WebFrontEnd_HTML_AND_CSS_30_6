@@ -1,0 +1,38 @@
+/* h1 element selector used to style every h1 */
+/* h1 {
+  color: white;
+  background-color: red;
+  font-size: 45px;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;  
+}
+/* #para2 is an id selector */
+/* #para2 {
+   color: tomato;
+   font-size: 2em;
+}
+
+#para3 {
+  color: blue;
+  font-size: 2.5em;
+  
+} */
+
+header {
+  background-color:rgb(154, 224, 88);
+  color: white;
+}
+
+#container {  
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  padding-top: 20px;
+  font-size: 45px;
+}

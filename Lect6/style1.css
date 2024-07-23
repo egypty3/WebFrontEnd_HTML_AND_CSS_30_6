@@ -1,0 +1,26 @@
+/* element selector */
+/********************/
+p {
+  text-align: center;
+  color:#246874;
+}
+
+/* id selector */
+/********************/
+#para1 {
+  color:#3b8113;
+}
+
+
+/* class selector */
+/********************/
+
+.rb {
+  background-color: red;
+  color: white;
+  font-family: Arial;
+}
+
+.large {
+  font-size: 300%;
+}

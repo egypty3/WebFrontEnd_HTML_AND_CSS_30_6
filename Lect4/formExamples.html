@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Examples</title>
+</head>
+<body>
+  <h1>Form Examples</h1>
+  <form action="/home/receive">
+    <label for="firstName">First Name :</label>
+    <br/>
+    <input type="text" name="firstName" id="firstName" placeholder="enter first name "/>
+    <br/>
+    <label for="lastName">Last Name :</label>
+    <br/>
+    <input type="text" name="lastName" id="lastName" placeholder="enter last name"  />
+    <br/>
+    <label for="address">Address</label>
+    <br/>
+    <textarea  name="address" id="address" rows="5" cols="100"></textarea>
+    <fieldset>
+      <legend >Gender </legend>
+      <label for="male">Male :</label>
+      <input type="radio" name="gender" id="male" value="m"/>
+      <label for="female">Female :</label>
+      <input type="radio" name="gender" id="female" value="f"/>
+    </fieldset>
+    <fieldset>
+      <legend >Car owner </legend>
+      <label for="yes">yes :</label>
+      <input type="radio" name="carOwner" id="yes" value="y"/>
+      <label for="no">no :</label>
+      <input type="radio" name="carOwner" id="no" value="n"/>
+    </fieldset>
+
+    <fieldset>
+      <legend>What vechile(s) you own for transportation?</legend>
+      <label for="scooter">Electric Scooter</label>
+      <input type="checkbox" name="scooter" id="scooter" value="scooter"/>
+      <br/>
+      <label for="car">Car</label>
+      <input type="checkbox" name="car" id="car" value="car"/>
+      <br/>
+      <label for="bicycle">Bicycle</label>
+      <input type="checkbox" name="bicycle" id="bicycle" value="cycle"/>
+    </fieldset>
+
+    <fieldset>
+      <legend>Car details </legend>
+      <label for="cars">Select the car you own :</label>
+      <select name="cars" id="cars">
+        <option value="1">Lexus</option>
+        <option value="2">Camery</option>
+        <option value="3">Kia sportage</option>
+      </select>
+    </fieldset>
+     <br/>
+    <input type="submit" value="الحفظ وارسال">
+  </form>
+</body>
+</html>

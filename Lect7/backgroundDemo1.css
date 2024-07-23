@@ -1,0 +1,10 @@
+body{
+  /* background-image: url('gradient_bg.png');
+  background-repeat: repeat-x; */
+  
+  /* background-image: url('img_tree.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: fixed; */
+  background: url('img_tree.png') no-repeat right top fixed;
+}

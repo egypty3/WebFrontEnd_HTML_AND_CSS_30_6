@@ -1,0 +1,47 @@
+div {
+  margin: 20px;
+  text-align: center;
+}
+#grad1 {
+  height: 100px;
+  background-image: linear-gradient(0deg,red,yellow);
+}
+#grad2 {
+  height: 100px;
+  background-image: linear-gradient(90deg,red,yellow);
+}
+#grad3 {
+  height: 100px;
+  background-image: linear-gradient(180deg,red,yellow);
+}
+#grad4 {
+  height: 100px;
+  background-image: linear-gradient(-90deg,red,yellow);
+}
+#grad5 {
+  height: 200px;
+  background-image: linear-gradient(red,yellow,green);
+}
+#grad6 {
+  height: 200px;
+  background-image: linear-gradient(red,orange,yellow,green,blue,indigo,violet);
+}
+#grad7 {
+  height: 200px;
+  background-image: linear-gradient(red 10%,green 70%,blue 20%);
+}
+#grad8 {
+  height: 200px;
+ 
+  background: linear-gradient(50deg,
+  rgba(84,209,74,1) 9%,
+  rgba(247,15,242,1) 54%,
+  rgba(196,98,141,1) 74%,
+  rgba(53,143,172,1) 93%);
+}
+
+#radialGrad1{
+  height: 150px;
+  width: 200px;
+  background-image: radial-gradient(red,yellow, green);
+}
