@@ -1,0 +1,22 @@
+/* pseudo classes  :hover */
+a:link {
+  color: hotpink;
+  background-color: yellow;
+  display: block;
+  text-decoration: none;
+  margin: 10px;
+}
+
+a:visited {
+  color: green;
+  background-color: cyan;
+  text-decoration: none;
+}
+
+a:hover {  
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+a:active {
+  background-color: hotpink;
+}

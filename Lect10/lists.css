@@ -1,0 +1,10 @@
+.a {
+  /* list-style-type: circle; */
+  color: brown;
+}
+.b {
+  list-style-type: square;
+}
+.c {
+  list-style-image: url(sqpurple.gif);
+}
