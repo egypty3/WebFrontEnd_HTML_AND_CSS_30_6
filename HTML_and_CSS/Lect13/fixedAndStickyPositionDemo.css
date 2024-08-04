@@ -1,0 +1,13 @@
+.fixed {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}

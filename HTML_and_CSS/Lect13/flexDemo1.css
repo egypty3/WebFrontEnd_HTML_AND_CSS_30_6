@@ -1,0 +1,19 @@
+/* compound selector */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: dodgerblue;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+ 
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 75px;
+}
+
