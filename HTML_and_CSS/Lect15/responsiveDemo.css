@@ -1,0 +1,29 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  /* font size 30px and text-align: center*/  
+  text-align: center;
+  font-size: 30px;
+  background-color: yellow ;
+}
+
+.flex-item-left {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 1;
+}
+
+.flex-item-right {
+  background-color: dodgerblue;
+  padding: 10px;
+  flex: 1;
+}
+/* media query filtering */
+@media (max-width:800px){
+  .flex-container{
+    flex-direction: column;   
+  }
+  .flex-item-left {
+    background-color: aqua;
+  }
+}
