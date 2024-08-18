@@ -1,0 +1,13 @@
+.bg-orange {
+  background-color: #ff6144!important;
+}
+
+.sign__container {
+  width: 60%;
+}  
+
+@media (min-width: 992px) {
+  .sign__container {
+    width: 350px;
+  }  
+}

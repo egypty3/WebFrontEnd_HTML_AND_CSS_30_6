@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/foodDelivery.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">MyFavFood</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                EN
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <h6 class="dropdown-header">Language</h6>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">SP</a>
+                  <a href="#" class="dropdown-item">FR</a>
+                  <a href="#" class="dropdown-item">DE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Log In</a>
+            </li>
+
+            <li class="nav-item dropdown ms-lg-3">
+              <a
+                class="nav-link dropdown-toggle text-light bg-orange d-inline-block rounded p-1 p-lg-2"
+                data-bs-toggle="dropdown"
+                href="#"
+              >
+                Sign Up
+              </a>
+
+              <ul
+                class="dropdown-menu dropdown-menu-lg-end p-5 sign__container"
+              >
+                <h1 class="h4 fw-normal text-center">Please sign in</h1>
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  id="inputEmail"
+                  class="form-control"
+                  name="email"
+                  required=""
+                  placeholder="Email address"
+                />
+                <label for="inputPassword" class="form-label">Password</label>
+                <input
+                  type="password"
+                  id="inputPassword"
+                  class="form-control"
+                  name="password"
+                  required=""
+                  placeholder="Password"
+                />
+                <div class="form-check">                  
+                    <input
+                      id="inputRemember"
+                      type="checkbox"
+                      class="form-check-input"
+                    />                  
+                    <label for="inputRemember" class="form-check-label">Remember me</label>                  
+                </div>
+                <button
+                  type="submit"
+                  class="btn bt-lg bg-orange form-control text-light"
+                >
+                  Sign in
+                </button>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
