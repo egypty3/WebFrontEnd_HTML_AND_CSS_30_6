@@ -1,0 +1,19 @@
+/* style myDiv class to be 300px width and 100px height
+ with the background color of yellow and 1px solid black borders
+ and a padding of 15px
+ */
+ .myDiv {
+   width: 300px;
+   height: 100px;
+   background-color: yellow;
+   border: 1px solid black;
+   padding: 15px;
+   transform: translate(50px,100px) scale(.75,.75);
+   transition: all .5s;
+ }
+
+ .myDiv:hover {
+  transform: translate(50px,100px) scale(.75,.75) 
+    skew(20deg,40deg)    
+  /* rotate(20deg); */
+}

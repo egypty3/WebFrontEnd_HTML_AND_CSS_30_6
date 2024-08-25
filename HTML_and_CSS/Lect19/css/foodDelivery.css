@@ -1,0 +1,25 @@
+.cover {
+  background-image:url('../images/Zytoon.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+/* background: yellow; */
+  }
+
+.bg-orange {
+  background-color: #ff6144!important;
+}
+
+.vh-80{
+  min-height: 84vh;
+}
+.sign__container {
+  width: 60%;
+}  
+
+@media (min-width: 992px) {
+  .sign__container {
+    width: 350px;
+  }  
+}
+

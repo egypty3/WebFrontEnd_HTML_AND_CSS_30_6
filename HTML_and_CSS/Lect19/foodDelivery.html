@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Delivery</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/foodDelivery.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">MyFavFood</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                href="#"
+                class="nav-link dropdown-toggle"
+                data-bs-toggle="dropdown"
+              >
+                EN
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <h6 class="dropdown-header">Language</h6>
+                </li>
+                <li>
+                  <a href="#" class="dropdown-item">SP</a>
+                  <a href="#" class="dropdown-item">FR</a>
+                  <a href="#" class="dropdown-item">DE</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-light" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Log In</a>
+            </li>
+
+            <li class="nav-item dropdown ms-lg-3">
+              <a
+                class="nav-link dropdown-toggle text-light bg-orange d-inline-block rounded p-1 p-lg-2"
+                data-bs-toggle="dropdown"
+                href="#"
+              >
+                Sign Up
+              </a>
+
+              <ul
+                class="dropdown-menu dropdown-menu-lg-end p-5 sign__container"
+              >
+                <h1 class="h4 fw-normal text-center">Please sign in</h1>
+                <label for="inputEmail" class="form-label">Email address</label>
+                <input
+                  type="email"
+                  id="inputEmail"
+                  class="form-control"
+                  name="email"
+                  required=""
+                  placeholder="Email address"
+                />
+                <label for="inputPassword" class="form-label">Password</label>
+                <input
+                  type="password"
+                  id="inputPassword"
+                  class="form-control"
+                  name="password"
+                  required=""
+                  placeholder="Password"
+                />
+                <div class="form-check">
+                  <input
+                    id="inputRemember"
+                    type="checkbox"
+                    class="form-check-input"
+                  />
+                  <label for="inputRemember" class="form-check-label"
+                    >Remember me</label
+                  >
+                </div>
+                <button
+                  type="submit"
+                  class="btn bt-lg bg-orange form-control text-light"
+                >
+                  Sign in
+                </button>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid cover">
+      <div
+        class="row align-items-center justify-content-center justify-content-xl-start vh-80"
+      >
+        <div
+          class="col col-sm-7 offset-xl-2 col-xl-4 text-center text-xl-start"
+        >
+          <h1 class="mb-4">
+            Food delivery from the best restaurants in your town
+          </h1>
+          <p class="mb-5">
+            Food, drinks and desserts available for delivery or pickup
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter delivery address"
+            />
+            <div>
+              <button
+                type="button"
+                class="btn bg-orange text-light text-uppercase p-3"
+              >
+                Find food
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="">
+      <div class="container-fluid">
+        <!--Grid-Row-->
+        <div class="row py-4 d-flex align-items-center">
+          <div class="col-md-7 col-lg-5 col-xl-4 text-center text-md-start small">
+            <nav class="nav justify-content-center justify-content-md-start">
+              <a class="nav-link text-muted" href="#">Terms of Privacy</a>
+              <a class="nav-link text-muted" href="#">Cookies</a>
+              <a class="nav-link text-muted" href="#">About</a>
+              <a class="nav-link text-muted" href="#">Contact</a>
+            </nav>
+          </div>
+
+          <div class="col-md-3 col-lg-4 col-xl-6 text-center text-md-start small">
+            <div class="text-center text-black-50">
+              @ 2020
+            </div>
+          </div>
+
+          <div class="col-md-2 col-lg-3 col-xl-2 text-center text-md-end">
+            <a href="#" class="text-dark">
+              <i class="fab fa-facebook-f mx-2"> </i></a>
+          <a href="#" class="text-dark">
+              <i class="fab fa-twitter mx-2"> </i></a>
+          <a href="#" class="text-dark">
+              <i class="fab fa-instagram  mx-2"> </i></a>
+          </div>
+        </div>
+        <!--Grid-Row-->
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

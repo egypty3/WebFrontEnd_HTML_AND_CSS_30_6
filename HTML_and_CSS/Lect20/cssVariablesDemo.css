@@ -1,0 +1,26 @@
+:root {
+  --myMainColor:#bf6820;
+  --mySecondaryColor: #9cbed1;
+  --myBorder-Width: 5px;
+}
+
+body {
+  background-color: var(--myMainColor);
+}
+
+h2 {
+  border-bottom: var(--myBorder-Width) solid var(--myMainColor);
+}
+
+.container {
+  color: var(--myMainColor);
+  background-color: var(--mySecondaryColor);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--mySecondaryColor);
+  color: var(--myMainColor);
+  border: var(--myBorder-Width) solid var(--myMainColor);
+  padding: 5px;
+}
