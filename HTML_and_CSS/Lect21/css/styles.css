@@ -1,0 +1,62 @@
+:root
+{
+  --btnbg:#ffcc00;
+  --btnfontcolor:rgb(61,61,61);
+  --btnfontcolorhover:rgb(255,255,255);
+  --btnbghover:#ffc116;
+
+  --label-index:#960896;
+}
+.container-fluid {
+  max-width: 1400px;
+}
+/* compound selector*/
+.card h5 {
+  overflow: hidden;
+  height: 55px;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.card  h5 a {
+  color: black;
+  text-decoration: none ;
+}
+
+.bold-btn {
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* padding: 5px 50px; */
+}
+
+.btn-warning {
+  background: var(--btnbg);
+  color: var(--btnfontcolor);
+  border:none;
+  fill: #fff;
+  border-radius: 100px;
+  outline: 0;
+}
+
+.btn-warning:hover {
+  background: var(--btnbghover);
+  color: var(--btnfontcolorhover);
+}
+
+.card-img-top {    
+  min-height: 250px;
+  max-height: 250px;
+  padding: 30px;
+  object-fit: contain;
+}
+.label-top {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: var(--label-index); 
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
