@@ -1,0 +1,92 @@
+:root
+{
+  --orange-color:#DA722C;
+  --dark-blue-color:#023047;
+  --light-blue-color:#6F7DFB;
+  --dark-color:#070917;
+  --light-color:#E8F7FB;
+}
+* ,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins";
+}
+nav.mobile-nav ,.mobile-menu-container {
+  display: none;
+}
+.wrapper {
+  max-width: 1134px;
+  margin: 0 auto;
+}
+/* Buttons*/
+
+.btn {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 24px; 
+  color: #FFF;
+  font-size: 16px;  
+  font-weight:bold; 
+  text-decoration: none ;
+  position: relative;
+}
+.btn.dark {
+  background: var(--dark-blue-color);
+}
+.btn.light {
+  background: var(--orange-color);
+}
+
+.btn.enrol-icon::before{
+  content: url("images/enroll-now-icon.svg");
+  position: absolute ;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);  
+}
+
+.btn.enrol-icon {
+  padding-left: 60px;
+}
+
+/*Header*/
+
+header {
+  background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
+  height: 100vh;
+  width: 100%;
+}
+nav .logo {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 900;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 1134px;
+  top:0;
+  padding: 36px 0;
+  z-index: 100;
+}
+nav ul {
+  display: flex;
+  list-style: none;  
+  align-items: center;
+  gap: 60px;
+  margin: 0;
+}
+nav ul li a {
+  font-weight: bold ;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none ;
+}
