@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Template Strings</h1>
+<p>Templates allow variables in strings:</p>
+
+<p id="demo"></p>
+
+<p>Templates are not supported in Internet Explorer.</p>
+
+<script>
+  var firstName = "Tarek";
+  var lastName = "Mamdouh";
+
+  //var text = `Welcome ${firstName}, ${lastName}!`; // variable substitution
+  var text = 'Welcome ' + firstName + ' , ' + lastName ; // concatenation
+
+  //document.getElementById("demo").innerHTML = text;
+
+  var price = 7288.25;
+  var VAT = 0.14;
+  
+  var priceAfterTax = (price * (1 + VAT)).toFixed(0);
+
+  document.getElementById("demo").innerHTML = 
+                        `The price is after VAT is : ${priceAfterTax}`; 
+</script>
+
+</body>
+</html>
