@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>arrays</title>
+</head>
+<body>
+  <div id="someDiv"></div>
+  <script>
+    let fruits = ['Apple', 'Banana','Orange','Plum'];
+
+    let theContent = '';
+
+    theContent += '<ul>';
+
+    for (let i = 0; i < fruits.length; i++) {     
+      theContent +=  `<li>${fruits[i]}</li>`;
+    }
+
+    theContent += '</ul>';
+
+    document.getElementById('someDiv').innerHTML = theContent;
+
+    theContent = '';
+
+    theContent += '<select>';
+
+    for (let i = 0; i <fruits.length; i++) {     
+      theContent +=  `<option>${fruits[i]}</option>`;
+    }
+
+    theContent += '</select>';
+
+    document.getElementById('someDiv').innerHTML += theContent;
+
+  </script>  
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Switch statement</title>
+</head>
+<body>
+  <form>
+    <label for="sumResult">Enter the summation of 23 + 5 : </label>  
+    <input type="text" id="sumResult"  />
+    <input type="button" value="check answer" onclick="checkAnswer(document.getElementById('sumResult').value)"/>
+  </form>
+
+  <script>
+    function checkAnswer(theAnswer) {
+    
+
+    switch(parseInt(theAnswer)) {
+      case 3:
+        alert('Too small');
+        break;      
+      case 28:
+        alert('Exactly');
+        break; 
+      case 50:
+        alert('Too big');
+        break; 
+      default:
+        alert('Strange answer!!!');
+        break;
+    }
+  }
+  </script>  
+</body>
+</html>
