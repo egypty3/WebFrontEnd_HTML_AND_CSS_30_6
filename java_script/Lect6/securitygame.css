@@ -6,16 +6,22 @@
 }
 
 .character {
-  background-color: lightblue ;
+  background-image: url('guest.JPG');
+  background-size: cover;
   width: 120px;
   height: 120px;
   padding: 10px;
   margin: 10px;  
   float: left;
+  display: none;
 }
 .hidden {
   display: none;
 }
 .visible {
   display: block;
+}
+.theif {
+  background-image: url('theif.JPG');
+  background-size: cover;
 }
