@@ -1,0 +1,26 @@
+// let count = 5;
+// count = 'a';
+// let a;
+// a = 1;
+// a = true;
+// a ='a';
+var a;
+var b;
+var c;
+var d;
+// d = 'dfkldsfl';
+// d = 33;
+// d = true;
+var e = [33, 99, 1, 2, 3, 4, 5, 6, 7, 8, 9, 32434];
+var f = [1, true, 'Michel', false];
+var ColorRed = 0;
+var ColorGreen = 1;
+var ColorBlue = 2;
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 0] = "Red";
+    Color[Color["Green"] = 1] = "Green";
+    Color[Color["Blue"] = 33] = "Blue";
+})(Color || (Color = {}));
+var backgroundColor = Color.Blue;
+console.log(backgroundColor);
