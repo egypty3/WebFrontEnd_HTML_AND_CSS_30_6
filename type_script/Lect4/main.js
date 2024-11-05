@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var silver_point_1 = require("./silver-point");
+var like_component_1 = require("./like.component");
+var point2 = new silver_point_1.SilverPoint(5, 10);
+point2.draw();
+var component = new like_component_1.LikeComponent(10, true);
+component.likesCount = 10000000;
+component.onClick();
+console.log("likesCount: ".concat(component.likesCount));
