@@ -1,0 +1,14 @@
+p {
+  /* good shiny style */
+  color: black ;
+  background-color: lightsalmon;
+  border: 2px solid darkslategray;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin: 10px;
+  text-align: center;
+  /* make the text bold */
+  font-weight: bold;
+  width: 10%;
+}
