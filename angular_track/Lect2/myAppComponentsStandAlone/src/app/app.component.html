@@ -1,0 +1,10 @@
+<!-- It's more accurate to use property binding instead of interpolation-->
+<!-- in case of boolean data-->
+<input type="text" [disabled]="isDisabled" >
+
+<input type="text" disabled="{{isDisabled}}" >
+<app-form></app-form>
+
+<h1>Hello from the App component</h1>
+<img [src]="imgSrc"/>
+<img src="{{imgSrc}}"/>
