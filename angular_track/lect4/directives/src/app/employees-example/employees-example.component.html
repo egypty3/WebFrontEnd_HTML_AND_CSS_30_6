@@ -1,0 +1,36 @@
+<div>
+  <button (click)="showEmployees = !showEmployees">
+      Display Employees
+  </button>
+  @if(showEmployees){
+    <div>
+      <h1>List of Employees</h1>
+      <table>
+        <thead>
+          <tr>
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Employee Role</th>
+          </tr>        
+        </thead>
+        <tbody>
+          @for(emp of employees(); track emp.id){
+          <tr>
+            <td>{{emp.id}}</td>
+            <td>{{emp.name}}</td>
+            <td>{{emp.role}}</td>
+          </tr>
+        }@empty {
+          <tr>
+            <td colspan="3">No Employees to display</td>
+          </tr>
+        }
+      </table>
+    </div>
+  } @else {
+    <div>
+      <h2>  Employees are hidden now !!</h2>
+    </div>
+  }
+
+</div>
