@@ -1,0 +1,19 @@
+<button (click)="toggleMode()">
+   {{colorMode =='lightMode' ? 'Switch To Dark Mode':'Switch to Light Mode'}}
+</button>
+
+<div class="box" [ngClass]="colorMode">
+  <h1>Main title 1</h1>
+  <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor earum quos facere distinctio temporibus,
+      excepturi cum expedita minima ipsam eius. Et dicta culpa hic atque fugit, earum quasi nemo!
+  </p>
+</div>
+
+<div class="box" [ngClass]="colorMode">
+  <h1>Main title 2</h1>
+  <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolor earum quos facere distinctio temporibus,
+      excepturi cum expedita minima ipsam eius. Et dicta culpa hic atque fugit, earum quasi nemo!
+  </p>
+</div>

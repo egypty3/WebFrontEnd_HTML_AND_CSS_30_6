@@ -1,0 +1,7 @@
+
+<div [ngSwitch]="person.age"> 
+  <p *ngSwitchCase="10">The person's age is 10 years old</p>
+  <p *ngSwitchCase="20">The person's age is 20 years old</p>
+  <p *ngSwitchCase="30">The person's age is 30 years old</p>
+  <p *ngSwitchDefault>The person's age is {{person.age}} years old</p>
+</div>
