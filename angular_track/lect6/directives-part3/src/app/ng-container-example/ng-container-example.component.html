@@ -1,0 +1,27 @@
+<!-- <h3>Normal division</h3>
+<div>
+  <p>Item 1</p>
+  <p>Item 2</p>
+  <p>Item 3</p>
+  <p>Item 4</p>
+  <p>Item 5</p>
+</div>
+<hr/>
+<h3>ng-container</h3>
+<ng-container>
+  <p>Item 1</p>
+  <p>Item 2</p>
+  <p>Item 3</p>
+  <p>Item 4</p>
+  <p>Item 5</p>
+</ng-container> -->
+<div *ngFor="let subject of subjectList">
+  <ng-container *ngIf="subject.subCode">
+    <span style="margin-right: 5px; font-size: 20px;">
+      Subject Code : {{subject.subCode}} , 
+    </span>
+    <span>
+      Subject Name : {{subject.name}}
+    </span>
+  </ng-container>
+</div>

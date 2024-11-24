@@ -1,0 +1,27 @@
+<form>
+  <h1>Submit Form</h1>
+  <!-- <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" 
+      [(ngModel)]="name"
+     [ngStyle]="{'background-color': name.length > 0 ? 'white' : 'red'}">
+  </div> -->
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" 
+      [(ngModel)]="nm"
+      [ngStyle]="{'background-color': nm ? 'lightgreen' : '#ffb6c1'}"
+       required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="name" name="email" 
+      [(ngModel)]="em"
+      [ngStyle]="{'background-color': emailIsValid ? 'lightgreen' : '#ffb6c1'}"
+       (input)="checkEmailValidation(em)"
+       required>
+  </div>
+  <button type="submit" (click)="showMessage()">Submit</button>
+</form>
+<p *ngIf="formSubmitted">Form is successfully submitted</p>

@@ -1,0 +1,8 @@
+<ng-container *ngIf="isAuthorized;else notAuthorized">
+  <p>Authorized User</p>
+</ng-container>
+
+
+<ng-template #notAuthorized>
+  <h2>Not Authorized</h2>
+</ng-template>
