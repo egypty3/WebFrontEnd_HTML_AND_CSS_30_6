@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="parent">
+    <h2>Data in app Component</h2>
+    <pre>{{tracks | json}}</pre>
+  </div>
+  <div class="child">
+    <h2>Child Component</h2>
+    <app-child [showData]="tracks"></app-child>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<h1 *ngIf="showHeading">Portofolio</h1>
+<ng-container *ngIf="!submitted; else preview">
+  <h2>Personal Information</h2>
+  <form>
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" [(ngModel)]="nm">
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" [(ngModel)]="em">
+    </div>
+    <div>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" [(ngModel)]="ph">
+    </div>
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" [(ngModel)]="add">
+    </div>  
+  </form>
+  <h2>Qualifications</h2>
+  <div *ngFor="let qualification of qualifications; let i = index">
+    <h3>Qualification {{i + 1}}</h3>
+    <form>
+      <div> 
+        <label for="school">School/College</label>
+        <input type="text" id="school" name="school" [(ngModel)]="qualification.school">    
+      </div>
+      <div>
+        <label for="degree">Degree</label>
+        <input type="text" id="degree" name="degree" [(ngModel)]="qualification.degree">
+      </div>
+      <div>
+        <label for="year">Year</label>
+        <input type="text" id="year" name="year" [(ngModel)]="qualification.year">
+      </div>
+    </form>
+  </div>
+  <div class="btn-container">
+    <button (click)="addQualification()">Add Qualification</button>
+    <button type="submit" (click)="submit()">Submit</button>
+  </div>
+</ng-container>
+<ng-template #preview>
+  <div class="preview-container">
+    <h2>Preview</h2>
+    <div>
+      <p [ngClass]="{'name':true}">{{nm}}</p>
+      <p>Email: {{em}}</p>
+      <p>Phone: {{ph}}</p>
+      <p>Address: {{add}}</p>
+    </div>
+    <div>
+      <h3>Qualifications</h3>
+      <div *ngFor="let qualification of qualifications; let i = index">
+        <div>
+          <h5>School/College: {{qualification.school}}</h5>
+          <h5>Degree: {{qualification.degree}} {{qualification.year}}</h5>          
+        </div>
+      </div>
+    </div>    
+    <button (click)="edit()" class="btn-edit">Edit</button>        
+  </div>
+</ng-template>  

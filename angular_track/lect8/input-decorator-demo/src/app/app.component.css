@@ -1,0 +1,25 @@
+h2 {
+  color: goldenrod;
+  text-align: center;
+  font-weight: 300;
+  font-size: 45px;
+}
+pre {
+  font-size: 15px;
+  display: block;  
+  margin: 0 auto;
+  width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #5d5c5c; 
+
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap:20px;  
+}
+.parent , .child {
+  border: 1px solid black;
+  padding: 10px;
+}
