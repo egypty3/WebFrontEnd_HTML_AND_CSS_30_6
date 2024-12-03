@@ -1,0 +1,12 @@
+<app-child (myEvent)="receiveChildEvent($event)"></app-child>
+<div>
+  <h2>Parent Component</h2>
+  <p>{{message}}</p>
+</div>
+
+<hr/>
+<button (click)="addItem()">Add Item</button>
+
+<app-list-viewer-child *ngIf="itemsArr.length > 0" [items]="itemsArr"
+  (itemDeleted)="deleteItem($event)">
+</app-list-viewer-child>
