@@ -1,0 +1,14 @@
+<div class="table-container">
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>State</th>
+      <th>Salary</th>
+    </tr>
+    <tr *ngFor="let emp of employees">
+      <td>{{emp.name |titlecase }}</td>
+      <td>{{emp.state | uppercase | slice:0:3 }}</td>
+      <td>{{emp.salary |currency:'USD'}}</td>
+    </tr>
+  </table>
+</div>  
