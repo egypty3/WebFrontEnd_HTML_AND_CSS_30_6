@@ -1,0 +1,35 @@
+<!-- <nav>
+  <a href="#" routerLink="/home" >Home Component</a>
+  <a href="#" routerLink="/about" >About Component</a>
+  <a href="#" routerLink="/employee" >Employee Component</a>
+</nav> -->
+<h1>Courses</h1>
+<ul>
+  <li>
+    <a href="#" [routerLink]="['/courseDetail']" [queryParams]="{id:'1'}">
+      HTML, CSS, Sass, Bootstrap - Beginner to Expert + Bootcamp
+    </a>
+  </li>
+  <li>
+    <a href="#" [routerLink]="['/courseDetail']" [queryParams]="{id:'2'}">
+      JavaScript Marathon Interview Questions Series
+    </a>
+  </li>
+  <li>
+    <a href="#" [routerLink]="['/courseDetail']" [queryParams]="{id:'3'}">
+      Mastering TypeScript with Marathon Interview Questions
+    </a>
+  </li>
+  <li>
+    <a href="#" [routerLink]="['/courseDetail']" [queryParams]="{id:'4'}">
+      Mastering React With Interview Questions,eStore Project
+    </a>
+  </li>
+  <li>
+    <a href="#" [routerLink]="['/courseDetail']" [queryParams]="{id:'5'}">
+      Practical Database Guide with RDBMS(MySQL) & NoSQL(MongoDB)
+    </a>
+  </li>
+</ul>
+<hr/>
+<router-outlet></router-outlet>

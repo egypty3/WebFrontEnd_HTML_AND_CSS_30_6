@@ -1,0 +1,12 @@
+<label>ID: {{id}}</label>
+<h2>{{name}}</h2>
+<div>
+  <div>
+    <p><strong>What you'll learn...</strong></p>
+    <p>{{desc | titlecase}}</p>
+  </div>
+  <div>
+   <img [src]="img" alt="{{name}}"/>
+   <p><strong>Price: </strong>{{price | currency:'USD'}}</p>
+  </div>  
+</div>
