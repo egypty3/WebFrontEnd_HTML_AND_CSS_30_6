@@ -1,0 +1,13 @@
+<h1>Emplyee Details</h1>
+<ul>
+  <li *ngFor="let emp of employees">
+    Employee: {{emp.name}}
+    <button (click)="showDetails(emp.id)">Show Details</button>
+    <div *ngIf="emp.id == empId">
+      <p class="details">ID : {{emp.id}}</p>
+      <p class="details">Department : {{emp.department}}</p>
+      <p class="details">Location : {{emp.location}}</p>
+      <p class="details">Phone : {{emp.phone}}</p>
+    </div>
+  </li>
+</ul>
