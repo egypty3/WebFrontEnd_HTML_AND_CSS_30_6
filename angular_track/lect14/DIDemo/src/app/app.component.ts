@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { ProductsComponent } from "./products/products.component";
 import { HttpClient } from '@angular/common/http';
@@ -12,13 +12,18 @@ import { Observable } from 'rxjs';
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   
   responseData: Observable<any> | undefined;
   loadData: boolean = false;
 
-  constructor(private http: HttpClient) { }
-  
+  constructor(private http: HttpClient) {
+    
+   }
+   ngOnInit() {
+    //  this.responseData =  this.http.get('https://jsonplaceholder.typicode.com/users');
+    //  this.loadData = true;
+  }
   getData() {
     this.responseData =  this.http.get('https://jsonplaceholder.typicode.com/users');
     this.loadData = true;
