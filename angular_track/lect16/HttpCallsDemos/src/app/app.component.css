@@ -1,0 +1,16 @@
+button {
+  display: block ;
+  margin: 40px auto;
+  padding: 8px 24px;
+  background-color: dodgerblue;
+  border: 0;
+  border-radius: 4px;
+  width: 25%;
+  outline: none;
+  font-family: 'segoe ui','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 300;
+  text-align: center;  
+  color: white;
+}

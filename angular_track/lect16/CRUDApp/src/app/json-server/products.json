@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 1000
+    },
+    {
+      "id": 2,
+      "name": "Mobile",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "name": "Tablet",
+      "price": 300
+    },
+    {
+      "id": 4,
+      "name": "Samsung Galaxy s25 Ultra",
+      "price": 60000
+    },
+    {
+      "id": 5,
+      "name": "Mouse",
+      "price": 10
+    }
+  ]
+}
