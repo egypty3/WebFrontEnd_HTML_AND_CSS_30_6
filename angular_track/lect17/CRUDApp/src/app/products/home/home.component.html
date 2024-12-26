@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 m-2">
+      <a class="btn btn-primary form-control" routerLink="/products/create">Add Product</a>
+    </div>
+    <div class="col-md-7">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of products">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.price | currency }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>   
+  </div>
+</div>
