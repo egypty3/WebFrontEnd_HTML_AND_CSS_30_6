@@ -1,0 +1,25 @@
+<div class="container">    
+      <table class="table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of products">
+            <td>{{ item.id }}</td>
+            <td>{{ item.name }}</td>
+            <td>{{ item.price | currency }}</td>
+            <td>
+              <a class="btn btn-primary" routerLink="/products/edit/{{item.id}}">Edit</a>
+              <a class="btn btn-danger mx-3" (click)="deleteProduct(item.id)">Delete</a>             
+          </tr>
+        </tbody>
+      </table>      
+      <div class="col col-md-5 mx-2 offset-md-5">
+        <a class="btn btn-primary form-control" routerLink="/products/create">Add Product</a>
+      </div>  
+</div>
