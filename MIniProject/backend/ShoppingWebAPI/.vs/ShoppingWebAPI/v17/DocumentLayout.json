@@ -1,0 +1,189 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\data\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\data\\shoppingdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|h:\\roaya\\webfrontend_html_and_css_30_6\\miniproject\\backend\\shoppingwebapi\\shoppingwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E33254D2-3C21-4BB1-A67C-817780348D0C}|ShoppingWebAPI\\ShoppingWebAPI.csproj|solutionrelative:shoppingwebapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T20:17:42.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Program.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Program.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Program.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAqwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:57:47.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Controllers\\ProductsController.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:55:03.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Models\\Product.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Product.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:52:28.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ShoppingDbContext.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Data\\ShoppingDbContext.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Data\\ShoppingDbContext.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Data\\ShoppingDbContext.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Data\\ShoppingDbContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:29:42.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Models\\CartItem.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\CartItem.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:17:24.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Models\\Order.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Order.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:16:52.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Category.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Models\\Category.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\Category.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:16:30.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "ShoppingWebAPI\\Models\\User.cs",
+              "ToolTip": "H:\\Roaya\\WebFrontEnd_HTML_AND_CSS_30_6\\MIniProject\\backend\\ShoppingWebAPI\\ShoppingWebAPI\\Models\\User.cs",
+              "RelativeToolTip": "ShoppingWebAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:16:15.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
