@@ -1,0 +1,15 @@
+.underline-transition::after {
+    content: '';
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 0.2em;
+    background-color: red;
+    transform: scaleX(0);
+    transition-property: transform;
+    transition-duration: 0.2s;
+}
+
+.underline-transition:hover::after {
+    transform: scaleX(1);
+}

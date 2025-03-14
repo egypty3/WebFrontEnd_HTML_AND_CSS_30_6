@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|h:\\roaya\\temp\\frontendgroupfinalproject\\shoppingcartbackendproject\\shoppingcartbackendproject\\migrations\\20250313152208_ratings column added to the products table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9676FEEF-86F0-4924-B247-2594997C98A8}|ShoppingCartBackEndProject\\ShoppingCartBackEndProject.csproj|solutionrelative:shoppingcartbackendproject\\migrations\\20250313152208_ratings column added to the products table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Program.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Program.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Program.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Program.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAGoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:23:02.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Controllers\\ProductsController.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwBkAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-14T19:04:24.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250313152208_Ratings column added to the Products table.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Migrations\\20250313152208_Ratings column added to the Products table.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Migrations\\20250313152208_Ratings column added to the Products table.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Migrations\\20250313152208_Ratings column added to the Products table.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Migrations\\20250313152208_Ratings column added to the Products table.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:22:08.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Category.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Models\\Category.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Models\\Category.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T15:20:44.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Models\\Product.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Models\\Product.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T19:28:10.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\appsettings.json",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\appsettings.json",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\appsettings.json",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-09T19:19:03.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:38:42.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "ShoppingCartBackEndProject\\Controllers\\CategoriesController.cs",
+              "ToolTip": "H:\\Roaya\\temp\\FrontEndGroupFinalProject\\ShoppingCartBackEndProject\\ShoppingCartBackEndProject\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "ShoppingCartBackEndProject\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T18:38:22.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
